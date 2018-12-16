@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="8543" started-at="2018-12-16T03:03:02Z" finished-at="2018-12-16T03:03:10Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="8543" started-at="2018-12-16T03:03:02Z" finished-at="2018-12-16T03:03:10Z">
+      <class name="com.myframework.Base.LoginPage">
+        <test-method status="PASS" signature="init(java.lang.String, java.lang.String)[pri:0, instance:com.myframework.Base.LoginPage@612fc6eb]" name="init" is-config="true" duration-ms="6372" started-at="2018-12-16T03:03:02Z" finished-at="2018-12-16T03:03:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testmethod1()[pri:0, instance:com.myframework.Base.LoginPage@612fc6eb]" name="testmethod1" duration-ms="2" started-at="2018-12-16T03:03:08Z" finished-at="2018-12-16T03:03:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmethod1 -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:com.myframework.Base.LoginPage@612fc6eb]" name="cleanup" is-config="true" duration-ms="2152" started-at="2018-12-16T03:03:08Z" finished-at="2018-12-16T03:03:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- com.myframework.Base.LoginPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

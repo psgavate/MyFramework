@@ -1,0 +1,4 @@
+com\myframework\Base\LoginPage.class
+com\myframework\utilities\StartupInitialize.class
+com\myframework\utilities\readProperties.class
+com\myframework\Base\baseclass.class

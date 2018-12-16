@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="env" value="QA"/>
+    <classes>
+      <class name="com.myframework.Base.LoginPage">
+        <methods>
+          <include name="cleanup"/>
+          <include name="init"/>
+          <include name="testmethod1"/>
+        </methods>
+      </class> <!-- com.myframework.Base.LoginPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
